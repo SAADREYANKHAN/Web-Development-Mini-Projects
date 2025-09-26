@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms IN HTML</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form action="/action.php">
+      <b>Enter user name</b> <input type="text" placeholder="User name" /><br />
+      <b>Enter password</b> <input type="password" placeholder="password" />
+      <br />
+      <h4>Select your class</h4>
+      <label for="101">
+        <input type="radio" value="Class XI" name="class" id="101" />Class XI
+      </label>
+      <br /><br />
+      <label for="102">
+        <input type="radio" value="Class XII" name="class" id="102" />Class XII
+      </label>
+      <br />
+      <!--CHECK BOXES-->
+      <h4>Select your subjects</h4>
+      <label for="math">
+        <input type="checkbox" value="math" name="subject" id="math" />Math
+      </label>
+      <br />
+      <label for="phy">
+        <input type="checkbox" value="physics" name="subject" id="phy" />Physics
+      </label>
+      <br />
+      <label for="bio">
+        <input type="checkbox" value="biology" name="subject" id="bio" />Biology
+      </label>
+      <br />
+      <label for="chem">
+        <input
+          type="checkbox"
+          value="chemistry"
+          name="subject"
+          id="chem"
+        />Chemistry
+      </label>
+      <br />
+      <h4>Select your city</h4>
+      <select name="city">
+        <option value="Peshawar">Peshawar</option>
+        <option value="Charsadda">Charsadda</option>
+        <option value="Mardan">Mardan</option>
+        <option value="Isalmabbad">Isalmabbad</option>
+      </select>
+      <br /><br />
+      <label for="100">
+        <textarea
+          name="feedback"
+          placeholder="Please give your valuable feedback here"
+          id="100"
+          rows="4"
+        ></textarea>
+      </label>
+      <br />
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>
