@@ -1,0 +1,27 @@
+body{
+   background-color:rgb(26, 25, 25);
+   text-align: center;
+}
+#red , #green , #yellow{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border:5px solid black;
+}
+h1{
+    color: white;
+    font-family: ar;
+    margin-bottom: 20px;
+}
+div{
+    margin:auto
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
