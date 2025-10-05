@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    
+}
+body{
+    background-color: #787e7e;
+}
+#navbar{
+    padding-top: 20px;
+    background-color: #0f1111;
+    height: 60px;
+    
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+button{
+    background-color: #f08804;
+    color:white;
+    
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+    
+}
+#inp{
+    color: black;
+}
+
+#ContentArea{
+    height: 500px;
+}
+.ContentBox{
+    color: black;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+footer{
+    background-color: #0f1111;
+    text-align: center;
+}
+.b1{
+    color:white;
+    margin-left: 45px;
+}
+#btnone{
+    background-color:#787e7e;
+    margin-left: 20px;
+}
+#btntwo{
+    background-color: #526d6d;
+    margin-left: 70px;
+}
+#btnthree{
+    margin-left: 55px;
+    background-color: rgb(75, 94, 94);
+}
