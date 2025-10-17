@@ -1,0 +1,28 @@
+body{
+    background-color: #808080;
+}
+.Loader{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 20px solid #6E2594;
+    border-top: 20px solid #ECD444;
+    animation-name: SpinAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    position: absolute;
+    top: 150px;
+    left: 190px;
+}
+
+@keyframes SpinAnimation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
