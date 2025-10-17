@@ -1,0 +1,100 @@
+body{
+    background-color: aqua;
+}
+#main {
+  display: flex;
+  border: 3px solid black;
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  background-color: white;
+  animation-name: Blinking_Colors;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+}
+div {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  position: relative;
+}
+
+#Box1 {
+  background-color: white;
+  border-radius: 50%;
+  top: 50px;
+  /* background-color: white; */
+  animation-name: Blinking_Colors1;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+}
+#Box2 {
+  background-color: blue;
+  border-radius: 50%;
+  top: 50px;
+  animation-name: Blinking_Colors2;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+}
+#Box3 {
+  background-color: red;
+  border-radius: 50%;
+  top: 50px;
+  animation-name: Blinking_Colors3;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+}
+#Box4 {
+  background-color: brown;
+  border-radius: 50%;
+  top: 50px;
+  animation-name: Blinking_Colors4;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+}
+
+@keyframes Blinking_Colors {
+  from {
+    background-color: yellow;
+  }
+  to {
+    background-color: red;
+  }
+}
+@keyframes Blinking_Colors1 {
+  from {
+    background-color: aqua;
+  }
+  to {
+    background-color:lightseagreen;
+  }
+}
+@keyframes Blinking_Colors2 {
+  from {
+    background-color: blue;
+  }
+  to {
+    background-color: darkorchid;
+  }
+}
+@keyframes Blinking_Colors3 {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: green;
+  }
+}
+@keyframes Blinking_Colors4 {
+  from {
+    background-color: brown;
+  }
+  to {
+    background-color: rgb(97, 93, 93);
+  }
+}
